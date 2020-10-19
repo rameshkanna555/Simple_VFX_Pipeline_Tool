@@ -16,7 +16,7 @@ class MainWindow(QWidget):
     def __init__(self):
         super(MainWindow, self).__init__()
 
-        self.setWindowTitle('Hhoop_publisher')
+        self.setWindowTitle('VFX_publisher')
         self.setGeometry(150,150,750,380)
         self.setFixedSize(800,380)
 
