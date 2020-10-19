@@ -5,7 +5,7 @@ import smtplib
 
 def sendingMail():
     server = smtplib.SMTP_SSL('smtp.gmail.com:465')
-    server.login('rameshkanna95@gmail.com','bujji199555')
+    server.login('rameshkanna95@gmail.com','password')
 
     ip = "Kanna"
     message = MIMEMultipart('alternative')
